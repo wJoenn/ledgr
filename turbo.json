@@ -1,0 +1,37 @@
+{
+  "$schema": "./node_modules/turbo/schema.json",
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "generate": {
+      "outputs": [
+        ".nuxt/**",
+        ".output/**",
+        "dist/**"
+      ]
+    },
+    "lint": {
+      "inputs": [
+        "**/*.{js,ts,vue}",
+        "!.nuxt/**",
+        "!.output/**",
+        "!.turbo/**",
+        "!dist/**",
+        "!node_modules/**"
+      ],
+    },
+    "typecheck": {
+      "inputs": [
+        "**/*.{ts,vue}",
+        "tsconfig.json",
+        "!.nuxt/**",
+        "!.output/**",
+        "!.turbo/**",
+        "!dist/**",
+        "!node_modules/**"
+      ],
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@ledgr/core",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "turbo run lint typecheck",
+    "dev:mobile": "turbo run @ledgr/mobile#dev",
+    "generate": "turbo run generate",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.17"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "pnpm": {
+    "overrides": {
+      "jiti": "^2.0.0"
+    }
+  }
+}
