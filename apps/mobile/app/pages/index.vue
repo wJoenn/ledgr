@@ -1,13 +1,16 @@
 <template>
-  <div>
-    <div class="flex items-center gap-2">
-      <Wallet class="size-5" />
-
-      <p>{{ $t('hello') }}</p>
-    </div>
+  <div class="p-4">
+    <ul class="space-y-2">
+      <li
+        v-for="account in db.accounts"
+        :key="account.id"
+      >
+        <AccountCard :account />
+      </li>
+    </ul>
   </div>
 </template>
 
 <script setup lang="ts">
-import Wallet from '~/assets/images/icons/wallet.svg';
+import db from '~/assets/db.json';
 </script>

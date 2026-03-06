@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   ssr: false,
 
+  components: [{ path: '~/components', pathPrefix: false }],
+
+  imports: {
+    dirs: ['utils/**'],
+  },
+
   typescript: {
     tsConfig: {
       include: ['../*.config.ts'],

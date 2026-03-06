@@ -1,0 +1,19 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "balance": 250000,
+      "name": "Personal"
+    },
+    {
+      "id": 2,
+      "balance": 500000,
+      "name": "Groceries"
+    },
+    {
+      "id": 1,
+      "balance": 80000,
+      "name": "Savings"
+    }
+  ]
+}
