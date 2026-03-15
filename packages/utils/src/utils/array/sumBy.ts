@@ -1,5 +1,5 @@
-import type { FilteredAttrs } from '../../types';
-import { pluck, sum } from '../../utils';
+import type { FilteredAttrs } from '../../types/index.d.ts';
+import { pluck, sum } from './index.ts';
 
 /**
  * Returns the sum of elements at a given attribute.

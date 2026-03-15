@@ -1,4 +1,4 @@
-import { pluck } from '~/utils';
+import { pluck } from '../../../index.ts';
 
 describe('pluck', () => {
   it('returns an array composed of each records\' selected attribute', () => {

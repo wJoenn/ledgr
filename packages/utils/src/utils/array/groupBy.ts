@@ -1,4 +1,4 @@
-import type { FilteredAttrs } from '../../types';
+import type { FilteredAttrs } from '../../types/index.d.ts';
 
 /**
  * Groups the collection by the given attribute.

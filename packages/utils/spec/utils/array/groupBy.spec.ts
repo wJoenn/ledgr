@@ -1,4 +1,4 @@
-import { groupBy } from '~/utils';
+import { groupBy } from '../../../index.ts';
 
 describe('groupBy', () => {
   it('groups records by a string attribute', () => {

@@ -1,4 +1,4 @@
-import { sumBy } from '~/utils';
+import { sumBy } from '../../../index.ts';
 
 describe('sumBy', () => {
   it('returns the sum of each records\' given numeric attribute', () => {

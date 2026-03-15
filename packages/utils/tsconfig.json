@@ -11,14 +11,6 @@
     "module": "preserve",
     "moduleDetection": "force",
     "moduleResolution": "Bundler",
-    "paths": {
-      "~": [
-        "./src"
-      ],
-      "~/*": [
-        "./src/*"
-      ]
-    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,

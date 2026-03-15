@@ -1,4 +1,4 @@
-import { sum } from '~/utils';
+import { sum } from '../../../index.ts';
 
 describe('sum', () => {
   it('returns the sum of an array of numbers', () => {
