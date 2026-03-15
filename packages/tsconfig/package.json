@@ -1,0 +1,5 @@
+{
+  "name": "@ledgr/tsconfig",
+  "private": true,
+  "type": "module"
+}

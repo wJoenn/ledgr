@@ -16,7 +16,7 @@
     "vue": "^3.0.0"
   },
   "devDependencies": {
-    "@ledgr/tailwind-config": "workspace:*",
+    "@ledgr/tsconfig": "workspace:*",
     "@leexi/shared": "^0.7.6",
     "@types/node": "^25.3.5",
     "typescript": "^5.9.3",

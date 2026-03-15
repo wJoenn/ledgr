@@ -35,6 +35,9 @@ importers:
         specifier: ^6.14.0
         version: 6.14.0(magicast@0.5.2)(yaml@2.8.2)
     devDependencies:
+      '@ledgr/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       '@leexi/shared':
         specifier: ^0.7.6
         version: 0.7.6(@typescript-eslint/parser@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(tailwindcss@3.4.19(yaml@2.8.2))
@@ -50,6 +53,9 @@ importers:
 
   packages/tailwind-config:
     devDependencies:
+      '@ledgr/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       '@leexi/shared':
         specifier: ^0.7.6
         version: 0.7.6(@typescript-eslint/parser@8.57.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(tailwindcss@3.4.19(yaml@2.8.2))
@@ -63,6 +69,8 @@ importers:
         specifier: ^5.9.3
         version: 5.9.3
 
+  packages/tsconfig: {}
+
   packages/ui:
     dependencies:
       tailwindcss:
@@ -72,9 +80,9 @@ importers:
         specifier: ^5.1.1
         version: 5.1.1(vue@3.5.30(typescript@5.9.3))
     devDependencies:
-      '@ledgr/tailwind-config':
+      '@ledgr/tsconfig':
         specifier: workspace:*
-        version: link:../tailwind-config
+        version: link:../tsconfig
       '@leexi/shared':
         specifier: ^0.7.6
         version: 0.7.6(@typescript-eslint/parser@8.57.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(tailwindcss@3.4.19(yaml@2.8.2))
@@ -93,6 +101,9 @@ importers:
 
   packages/utils:
     devDependencies:
+      '@ledgr/tsconfig':
+        specifier: workspace:*
+        version: link:../tsconfig
       '@leexi/shared':
         specifier: ^0.7.6
         version: 0.7.6(@typescript-eslint/parser@8.57.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(tailwindcss@3.4.19(yaml@2.8.2))

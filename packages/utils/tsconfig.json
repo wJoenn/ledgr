@@ -1,28 +1,14 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "lib": [
-      "ESNext"
-    ],
-    "module": "preserve",
-    "moduleDetection": "force",
-    "moduleResolution": "Bundler",
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "ESNext",
     "types": [
       "vitest/globals"
     ],
-    "verbatimModuleSyntax": true,
   },
+  "extends": [
+    "@ledgr/tsconfig/packages.tsconfig.json"
+  ],
   "include": [
     "*.ts",
-    "src",
     "spec"
   ]
 }
