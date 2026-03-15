@@ -22,6 +22,9 @@ importers:
       '@ledgr/tailwind-config':
         specifier: workspace:*
         version: link:../tailwind-config
+      '@ledgr/ui':
+        specifier: workspace:*
+        version: link:../ui
       '@ledgr/utils':
         specifier: workspace:*
         version: link:../utils
