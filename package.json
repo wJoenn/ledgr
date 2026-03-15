@@ -3,10 +3,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "check": "turbo run lint typecheck",
+    "check": "turbo run lint test typecheck",
     "dev:mobile": "turbo run @ledgr/mobile#dev",
     "generate": "turbo run generate",
     "lint": "turbo run lint",
+    "test": "turbo run test",
     "typecheck": "turbo run typecheck"
   },
   "devDependencies": {

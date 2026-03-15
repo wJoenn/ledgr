@@ -11,14 +11,26 @@
     "module": "preserve",
     "moduleDetection": "force",
     "moduleResolution": "Bundler",
+    "paths": {
+      "~": [
+        "./src"
+      ],
+      "~/*": [
+        "./src/*"
+      ]
+    },
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
+    "types": [
+      "vitest/globals"
+    ],
     "verbatimModuleSyntax": true,
   },
   "include": [
     "*.ts",
-    "src"
+    "src",
+    "spec"
   ]
 }

@@ -14,13 +14,25 @@
     },
     "lint": {
       "inputs": [
-        "**/*.{js,ts,vue}",
+        "**/*.{ts,vue}",
+        "tsconfig.json",
         "!.nuxt/**",
         "!.output/**",
         "!.turbo/**",
         "!dist/**",
         "!node_modules/**"
-      ],
+      ]
+    },
+    "test": {
+      "inputs": [
+        "**/*.{ts,vue}",
+        "tsconfig.json",
+        "!.nuxt/**",
+        "!.output/**",
+        "!.turbo/**",
+        "!dist/**",
+        "!node_modules/**"
+      ]
     },
     "typecheck": {
       "inputs": [
@@ -31,7 +43,7 @@
         "!.turbo/**",
         "!dist/**",
         "!node_modules/**"
-      ],
+      ]
     }
   }
 }
