@@ -11,4 +11,11 @@ export default <Linter.Config[]>[
       },
     },
   },
+  {
+    ignores: [
+      '.turbo',
+      'dist',
+      'node_modules/',
+    ],
+  },
 ];
