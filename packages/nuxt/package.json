@@ -1,0 +1,21 @@
+{
+  "name": "@ledgr/nuxt",
+  "private": true,
+  "type": "module",
+  "main": "./src/module.ts",
+  "types": "./src/module.ts",
+  "scripts": {
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ledgr/utils": "workspace:*",
+    "@nuxt/kit": "^4.4.2"
+  },
+  "devDependencies": {
+    "@leexi/shared": "^0.7.6",
+    "@nuxt/schema": "^4.4.2",
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3"
+  }
+}
