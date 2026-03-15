@@ -19,7 +19,20 @@ importers:
 
   packages/nuxt: {}
 
-  packages/tailwind-config: {}
+  packages/tailwind-config:
+    devDependencies:
+      '@leexi/shared':
+        specifier: ^0.7.6
+        version: 0.7.6(@typescript-eslint/parser@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)(tailwindcss@3.4.19)
+      '@types/node':
+        specifier: ^25.3.5
+        version: 25.5.0
+      tailwindcss:
+        specifier: <4.0.0
+        version: 3.4.19
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
 
   packages/ui: {}
 
