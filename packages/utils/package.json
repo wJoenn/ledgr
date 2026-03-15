@@ -1,0 +1,16 @@
+{
+  "name": "@ledgr/utils",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@leexi/shared": "^0.7.6",
+    "@types/node": "^25.3.5",
+    "typescript": "^5.9.3"
+  }
+}
