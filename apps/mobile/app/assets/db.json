@@ -1,0 +1,64 @@
+{
+  "accounts": [
+    {
+      "balance": 0,
+      "category": "main",
+      "name": "Current Account",
+      "uuid": 1
+    },
+    {
+      "balance": 12212,
+      "category": "budget",
+      "name": "206",
+      "uuid": 2
+    },
+    {
+      "balance": 38508,
+      "category": "budget",
+      "name": "Cats",
+      "uuid": 3
+    },
+    {
+      "balance": -7683,
+      "category": "budget",
+      "name": "Extras",
+      "uuid": 4
+    },
+    {
+      "balance": 8815,
+      "category": "budget",
+      "name": "Fuel",
+      "uuid": 5
+    },
+    {
+      "balance": 13567,
+      "category": "budget",
+      "name": "Groceries",
+      "uuid": 6
+    },
+    {
+      "balance": -22890,
+      "category": "budget",
+      "name": "Hobbies",
+      "uuid": 7
+    },
+    {
+      "balance": 6064,
+      "category": "budget",
+      "name": "Manga",
+      "uuid": 8
+    },
+    {
+      "balance": 510000,
+      "category": "saving",
+      "name": "House",
+      "uuid": 9
+    },
+    {
+      "balance": 320928,
+      "category": "saving",
+      "name": "Savings",
+      "uuid": 10
+    }
+  ]
+}
