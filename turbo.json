@@ -14,35 +14,23 @@
     },
     "lint": {
       "inputs": [
-        "**/*.{ts,vue}",
-        "tsconfig.json",
+        "$TURBO_DEFAULT$",
         "!.nuxt/**",
         "!.output/**",
-        "!.turbo/**",
-        "!dist/**",
-        "!node_modules/**"
       ]
     },
     "test": {
       "inputs": [
-        "**/*.{ts,vue}",
-        "tsconfig.json",
+        "$TURBO_DEFAULT$",
         "!.nuxt/**",
         "!.output/**",
-        "!.turbo/**",
-        "!dist/**",
-        "!node_modules/**"
       ]
     },
     "typecheck": {
       "inputs": [
-        "**/*.{ts,vue}",
-        "tsconfig.json",
+        "$TURBO_DEFAULT$",
         "!.nuxt/**",
         "!.output/**",
-        "!.turbo/**",
-        "!dist/**",
-        "!node_modules/**"
       ]
     }
   },
