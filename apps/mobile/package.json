@@ -1,0 +1,28 @@
+{
+  "name": "@ledgr/mobile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "lint": "eslint",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^10.2.3",
+    "nuxt": "^4.4.2",
+    "tailwindcss": "<4.0.0",
+    "vue": "^3.5.30",
+    "vue-router": "^5.0.3"
+  },
+  "devDependencies": {
+    "@ledgr/nuxt": "workspace:*",
+    "@leexi/shared": "^0.7.6",
+    "@nuxt/eslint": "^1.15.2",
+    "vue-tsc": "^3.2.5"
+  },
+  "packageManager": "pnpm@10.30.3"
+}
